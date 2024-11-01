@@ -1,4 +1,7 @@
 import FlipCard from './componentes/FlipCard'
+import Proycard from './componentes/Proycard'
+import misProyectos from '../data/dataMisporyectos'
+import colaboraciones from '../data/dataColavoraciones'
 
 function Porfolio() {
   return (
@@ -17,6 +20,36 @@ function Porfolio() {
           creatividad al equipo.
         </p>
         <FlipCard></FlipCard>
+      </div>
+      <h2>Mis Proyectos</h2>
+      <div className="mis-proyectos">
+        {misProyectos.proyectos.map((cadaProyecto, index) => {
+          return (
+            <Proycard
+              key={index}
+              name={cadaProyecto.name}
+              img={cadaProyecto.img}
+              description={cadaProyecto.description}
+              technologies={cadaProyecto.technologies}
+              features={cadaProyecto.features}
+            />
+          )
+        })}
+      </div>
+      <h2>COLABORACIONES</h2>
+      <div className="mis-proyectos">
+        {colaboraciones.map((cadaProyecto, index) => {
+          return (
+            <Proycard
+              key={index}
+              name={cadaProyecto.name}
+              img={cadaProyecto.img}
+              description={cadaProyecto.description}
+              technologies={cadaProyecto.technologies}
+              features={cadaProyecto.features}
+            />
+          )
+        })}
       </div>
     </div>
   )
