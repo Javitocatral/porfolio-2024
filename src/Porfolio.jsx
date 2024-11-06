@@ -3,13 +3,13 @@ import Proycard from './componentes/Proycard'
 import misProyectos from '../data/dataMisporyectos'
 import colaboraciones from '../data/dataColavoraciones'
 import cv from './assets/cv.png'
-import git from './assets/git.png'
+import gitblanco from './assets/gitblanco.png'
 import email from './assets/email.png'
 
 function Porfolio() {
   return (
     <div className="container-porfolio">
-      <h1> Hola soy Javier Gascón Ruiz!!</h1>
+      <h1> Hola soy Javier Gascón !!</h1>
 
       <div className="about">
         <div>
@@ -36,7 +36,7 @@ function Porfolio() {
         </div>
         <FlipCard></FlipCard>
       </div>
-      <div>
+      <div className="acceso-info">
         <a href="/data/Cv-JavierGascon.pdf" download>
           <button className="button-info button-cv">
             CV
@@ -46,7 +46,7 @@ function Porfolio() {
         <a href="https://github.com/Javitocatral">
           <button className="button-info button-github">
             Mi GitHub
-            <img style={{ width: '30px' }} src={git} alt="github" />
+            <img style={{ width: '30px' }} src={gitblanco} alt="github" />
           </button>
         </a>
         <a href="mailto:javitocatral@gmail.com">
@@ -73,7 +73,7 @@ function Porfolio() {
           )
         })}
       </div>
-      <h2>COLABORACIONES</h2>
+      <h2>Colaboraciones</h2>
       <div className="mis-proyectos">
         {colaboraciones.map((cadaProyecto, index) => {
           return (

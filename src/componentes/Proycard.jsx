@@ -8,19 +8,19 @@ function Proycard({
   link,
   repo,
 }) {
-  console.log(link)
+  const handleClick = (event) => {
+    if (repo === undefined) {
+      alert(
+        '¡Alerta!\n\nRepositorio privado:\nEl repositorio no está disponible públicamente.'
+      )
+      event.preventDefault()
+    }
+  }
   return (
     <div className="proyecto">
       <div className="img">
         <img src={img} alt="" />
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'flex-end',
-            gap: '20px',
-            zIndex: '100',
-          }}
-        >
+        <div className="button-container">
           <a
             href={link}
             className="ver-boton"
@@ -29,14 +29,21 @@ function Proycard({
           >
             Ver
           </a>
-          <a
-            href={repo}
-            className="git-boton"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img style={{ width: '25px' }} src={git} alt="gitHub" />
-          </a>
+          {repo === undefined ? (
+            <button className="git-boton" onClick={handleClick}>
+              <img style={{ width: '25px' }} src={git} alt="gitHub" />
+            </button>
+          ) : (
+            <a
+              href={repo}
+              className="git-boton"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleClick}
+            >
+              <img style={{ width: '25px' }} src={git} alt="gitHub" />
+            </a>
+          )}
         </div>
       </div>
       <div className="content">
