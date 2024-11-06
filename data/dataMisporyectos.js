@@ -15,6 +15,8 @@ const misProyectos = {
         'Gráficos arcade',
         'Controles intuitivos',
       ],
+      link: 'https://javitocatral.github.io/UrbanRollerGame/',
+      repositorio: 'https://github.com/Javitocatral/UrbanRollerGame',
     },
     {
       img: collective,
@@ -35,6 +37,8 @@ const misProyectos = {
         'Artículos de actualidad',
         'Diseño moderno y adaptable para todo tipo de dispositivos',
       ],
+      link: 'https://collective-pulse.netlify.app/',
+      repositorio: 'https://github.com/ana-badolato/Collective-Pulse',
     },
     {
       img: estuhuella,
@@ -56,6 +60,8 @@ const misProyectos = {
         'Foro de usuarios para temas ambientales',
         'Área privada para seguimiento diario',
       ],
+      link: 'https://estuhuella.netlify.app/',
+      repositorio: 'https://github.com/plperezp/estuHuella',
     },
   ],
 }

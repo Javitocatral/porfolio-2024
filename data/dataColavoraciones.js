@@ -14,6 +14,7 @@ const colaboraciones = [
       'Optimización para la distribución en Dinamarca',
       'Interfaz fácil de usar',
     ],
+    link: 'https://www.vermouth.nu/',
   },
   {
     img: tomacafe,
@@ -33,6 +34,7 @@ const colaboraciones = [
       'Agenda de eventos relacionados con el café',
       'Localizador de tiendas físicas',
     ],
+    link: 'https://toma.cafe/es',
   },
   {
     img: elDanes,
@@ -45,6 +47,7 @@ const colaboraciones = [
       'Interfaz de usuario intuitiva',
       'Optimización de rendimiento',
     ],
+    link: 'https://www.xn--eldans-fva.com/es',
   },
 ]
 export default colaboraciones
