@@ -111,7 +111,7 @@ th {
 .about p {
   padding: 10px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 500;
 }
 .proyecto {
   position: relative;
