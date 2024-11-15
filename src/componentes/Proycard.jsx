@@ -30,13 +30,13 @@ function Proycard({
             Ver
           </a>
           {repo === undefined ? (
-            <button className="git-boton" onClick={handleClick}>
+            <button className="ver-boton" onClick={handleClick}>
               <img style={{ width: '25px' }} src={git} alt="gitHub" />
             </button>
           ) : (
             <a
               href={repo}
-              className="git-boton"
+              className="ver-boton"
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleClick}

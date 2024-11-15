@@ -112,6 +112,7 @@ th {
   padding: 10px;
   font-size: 20px;
   font-weight: 500;
+  text-align: left;
 }
 .proyecto {
   position: relative;
