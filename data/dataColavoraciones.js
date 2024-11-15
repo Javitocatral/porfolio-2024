@@ -1,6 +1,6 @@
 import vermouth from '../src/assets/Vermuth.png'
 import tomacafe from '../src/assets/tomacafe.png'
-//import elDanes from '../src/assets/elDanes.png'
+import elDanes from '../src/assets/danes.png'
 
 const colaboraciones = [
   {
@@ -37,7 +37,7 @@ const colaboraciones = [
     link: 'https://toma.cafe/es',
   },
   {
-    img: '',
+    img: elDanes,
     name: 'El Danés Solutions',
     description:
       'Sitio web de la empresa especializada en desarrollo frontend donde trabajé. El enfoque principal es el diseño de interfaces eficientes y atractivas.',
