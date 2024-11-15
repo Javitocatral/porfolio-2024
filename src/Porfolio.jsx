@@ -40,7 +40,7 @@ function Porfolio() {
         <FlipCard></FlipCard>
       </div>
       <div className="acceso-info">
-        <a href="/Cv-javierGascon.pdf" download>
+        <a href="/public/Cv-javierGascon.pdf" download>
           <button className="button-info button-cv">
             CV
             <img style={{ width: '30px' }} src={cv} alt="cv" />
