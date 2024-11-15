@@ -37,7 +37,7 @@ const colaboraciones = [
     link: 'https://toma.cafe/es',
   },
   {
-    img: elDanes,
+    img: '',
     name: 'El Danés Solutions',
     description:
       'Sitio web de la empresa especializada en desarrollo frontend donde trabajé. El enfoque principal es el diseño de interfaces eficientes y atractivas.',
