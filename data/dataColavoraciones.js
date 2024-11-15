@@ -1,6 +1,6 @@
 import vermouth from '../src/assets/Vermuth.png'
 import tomacafe from '../src/assets/tomacafe.png'
-import elDanes from '../src/assets/elDanes.png'
+import elDanes from '../src/assets/eldanes.png'
 
 const colaboraciones = [
   {
