@@ -14,20 +14,23 @@ function Porfolio() {
       <div className="about">
         <div>
           <p>
-            Soy desarrollador web con un enfoque proactivo y muchas ganas de
-            seguir aprendiendo. Acabo de finalizar mi formación en Ironhack,
-            donde profundicé en tecnologías como JavaScript, Node.js y MongoDB.
+            Soy desarrollador web con un enfoque proactivo y con muy buena
+            actitud y adaptabilidad. Siempre actualizando mi formación, acabo de
+            finalizar mi formación en <strong>Ironhack </strong> Ironhack, donde
+            profundicé en tecnologías como <strong>JavaScript</strong>,{' '}
+            <strong>Node.js</strong> y <strong>MongoDB</strong>.
           </p>
           <p>
-            Me encanta trabajar con React.js y SvelteKit para crear interfaces
-            de usuario dinámicas, y tengo una sólida base en HTML y CSS para
-            hacer que esas interfaces sean atractivas y fáciles de usar. También
-            disfruto asegurándome de que el código esté limpio y bien
-            organizado, usando herramientas como ESLint, Prettier y Playwright.
+            Me encanta trabajar con <strong>React.js</strong> y{' '}
+            <strong>SvelteKit</strong> para crear interfaces de usuario
+            dinámicas, y tengo una sólida base en HTML y CSS para conseguir
+            páginas más atractivas y fáciles de usar. También disfruto
+            asegurándome de que el código esté limpio y bien organizado, usando
+            herramientas como <strong> ESLint, Prettier y Playwright</strong>.
           </p>
           <p>
             Tengo muchas ganas de seguir creciendo profesionalmente y de aportar
-            ideas frescas y energía a un equipo.
+            ideas frescas y energía a un equipo
           </p>
           <p>
             Si te interesa colaborar o conocer más sobre mis proyectos, ¡no
