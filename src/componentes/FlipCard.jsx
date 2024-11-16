@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+/*import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip'
 import yodepie from '../assets/yodepie.jpg'
 import yosentado from '../assets/yosentado.jpg'
@@ -17,21 +17,21 @@ const FlipCard = () => {
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
       <div
-        style={{ width: '300px' }}
+        style={{ width: '80%', height: '100vh' }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <img src={yosentado} alt="Posterior" className="back-image" />
+        <img src={yosentado} alt="Posterior" />
       </div>
       <div
-        style={{ width: '300px' }}
+        style={{ width: '80%', height: '100vh' }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <img src={yodepie} alt="Frontal" className="front-image" />
+        <img src={yodepie} alt="Frontal" />
       </div>
     </ReactCardFlip>
   )
 }
 
-export default FlipCard
+export default FlipCard*/

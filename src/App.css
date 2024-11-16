@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *,
 *::before,
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 100%;
   min-height: 100%;
   -webkit-overflow-scrolling: touch;
@@ -93,26 +93,94 @@ fieldset {
 th {
   font: inherit;
 }
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 30px;
+  font-size: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a.active {
+  font-weight: bold;
+  border-bottom: 7px solid #cdff4f;
+}
 .container-porfolio {
   display: flex;
-  flex-direction: column;
+}
+.yo {
+  width: 50%;
+  height: 100vh;
+  background-image: url('./assets/yodepie.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.name-container {
+  width: 50%;
+}
+.name {
+  height: 80vh;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 50px;
+  flex-direction: column;
+  padding: 100px;
 }
 .container-porfolio h1 {
-  font-size: 50px;
+  font-size: 70px;
+}
+.container-porfolio h2 {
+  position: relative;
+  width: 232px;
+}
+.container-porfolio h2::before {
+  position: absolute;
+  content: '';
+  height: 1rem;
+  width: 100%;
+  top: 18px;
+  left: 33px;
+  background-color: #cdff4f;
+  z-index: -1;
+}
+.container-porfolio p {
+  font-size: 36px;
+}
+.about-container {
+  display: flex;
 }
 .about {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 300px 10px 50px;
+}
+.color-aboutme {
+  width: 30%;
+  background-color: #cdff4f;
+  height: 100vh;
 }
 .about p {
-  padding: 10px;
   font-size: 20px;
   font-weight: 500;
   text-align: left;
+}
+.btn-cv {
+  margin-top: 30px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 50px;
+  gap: 10px;
 }
 .proyecto {
   position: relative;
@@ -210,65 +278,6 @@ a.ver-boton:hover {
   background-color: #24292f;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
   color: #f5f5f5;
-}
-
-.git-boton {
-  font-weight: bold;
-  text-align: center;
-  transition: transform 0.2s ease, background-color 0.3s ease;
-}
-
-.git-boton:hover {
-  transform: scale(1.3);
-}
-
-.button-info {
-  width: 200px;
-  font-size: 16px;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.button-cv {
-  background-color: #e0ca00;
-  color: white;
-}
-
-.button-cv:hover {
-  background-color: #c5b202;
-  transform: scale(1.05);
-}
-
-.button-github {
-  background-color: #333333;
-  color: white;
-}
-
-.button-github:hover {
-  background-color: #444444;
-  transform: scale(1.05);
-}
-
-.button-contacto {
-  background-color: #0284af;
-  color: white;
-}
-
-.button-contacto:hover {
-  background-color: #016696;
-  transform: scale(1.05);
-}
-.acceso-info {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 100px 20px;
 }
 
 @media (max-width: 768px) {
