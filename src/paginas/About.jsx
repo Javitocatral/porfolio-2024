@@ -28,12 +28,16 @@ function About() {
             <strong> ESLint, Prettier y Playwright</strong>.
           </p>
           <p>
-            Tengo muchas ganas de seguir creciendo profesionalmente y de aportar
-            ideas frescas y energía a un equipo
+            Antes de mi formación en Ironhack, trabajé en{' '}
+            <strong>El Danés Solution</strong>, lo que me brindó experiencia
+            práctica en el sector y reforzó mi compromiso con el trabajo en
+            equipo y la entrega de resultados de calidad.
           </p>
           <p>
-            Si te interesa colaborar o conocer más sobre mis proyectos, ¡no
-            dudes en contactarme!
+            Estoy entusiasmado por seguir creciendo profesionalmente y aportar
+            ideas frescas, creatividad y energía a un equipo de desarrollo. Si
+            te interesa colaborar o conocer más sobre mis proyectos, ¡estaré
+            encantado de conectar contigo!
           </p>
         </div>
         <div className="info">
