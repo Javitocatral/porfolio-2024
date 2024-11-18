@@ -1,6 +1,8 @@
 import React from 'react'
 import Nav from '../componentes/Nav'
-
+import carta from '../assets/carta.png'
+import telefono from '../assets/telefono.png'
+import descargas from '../assets/descargas.png'
 function About() {
   return (
     <div className="about-container">
@@ -12,7 +14,7 @@ function About() {
           <p>
             Soy desarrollador web con un enfoque proactivo y con muy buena
             actitud y adaptabilidad. Siempre actualizando mi formación, acabo de
-            finalizar mi formación en <strong>Ironhack </strong> Ironhack, donde
+            finalizar mi formación en <strong>Ironhack </strong>, donde
             profundicé en tecnologías como <strong>JavaScript</strong>,{' '}
             <strong>Node.js, Express</strong> y <strong>MongoDB</strong>.
           </p>
@@ -35,10 +37,42 @@ function About() {
           </p>
         </div>
         <div className="info">
-          <a href="mailto:javitocatral@gmail.com">javitocatral@gmail.com</a>
-          <a href="tel:+34690084912">690084912</a>
+          <a
+            style={{ display: 'flex', gap: '5px' }}
+            href="mailto:javitocatral@gmail.com"
+          >
+            <img
+              style={{
+                width: '16px',
+              }}
+              src={carta}
+              alt="icono carta de correos tradicional"
+            />
+            <strong>javitocatral@gmail.com</strong>
+          </a>
+          <a style={{ display: 'flex', gap: '5px' }} href="tel:+34690084912">
+            {' '}
+            <img
+              style={{
+                width: '16px',
+              }}
+              src={telefono}
+              alt="icono de un telefono de casa"
+            />
+            <strong>690084912</strong>
+          </a>
           <a href="/Cv-JavierGascon.pdf" download>
-            <button className="btn-cv">Descargar mi cv</button>
+            <button className="btn-cv" style={{ display: 'flex', gap: '5px' }}>
+              {' '}
+              <img
+                style={{
+                  width: '10px',
+                }}
+                src={descargas}
+                alt="icono de descargar archivos uan flecah hacia abajo"
+              />
+              Descargar mi CV
+            </button>
           </a>
         </div>
       </div>

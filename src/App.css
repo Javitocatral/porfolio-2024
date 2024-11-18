@@ -157,12 +157,15 @@ th {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 300px 10px 50px;
+  padding: 0px 300px 10px 50px;
 }
 .color-aboutme {
-  width: 30%;
+  width: 100%;
   background-color: #cdff4f;
   height: 100vh;
+}
+.about h2 {
+  padding: 20px 0;
 }
 .about p {
   font-size: 20px;
@@ -170,16 +173,18 @@ th {
   text-align: left;
 }
 .btn-cv {
+  font-size: 10px;
+  font-weight: 700;
   margin-top: 30px;
   border: 1px solid black;
-  padding: 20px;
+  padding: 10px;
 }
 .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  padding: 50px;
+  padding: 30px 50px 0;
   gap: 10px;
 }
 .proyecto {
