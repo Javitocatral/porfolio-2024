@@ -39,6 +39,7 @@ function About() {
             te interesa colaborar o conocer más sobre mis proyectos, ¡estaré
             encantado de conectar contigo!
           </p>
+          <div className="color-mobile"></div>
         </div>
         <div className="info">
           <a
