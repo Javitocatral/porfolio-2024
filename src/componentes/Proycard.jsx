@@ -1,4 +1,5 @@
 import git from '../assets/git.png'
+import ver from '../assets/ver.png'
 function Proycard({
   name,
   img,
@@ -20,6 +21,8 @@ function Proycard({
     <div className="proyecto">
       <div className="img">
         <img src={img} alt="" />
+      </div>
+      <div className="content">
         <div className="button-container">
           <a
             href={link}
@@ -27,7 +30,11 @@ function Proycard({
             target="_blank"
             rel="noopener noreferrer"
           >
-            Ver
+            <img
+              style={{ width: '25px' }}
+              src={ver}
+              alt="icono de un ojo para ver los proyectos"
+            />
           </a>
           {repo === undefined ? (
             <button className="ver-boton" onClick={handleClick}>
@@ -45,8 +52,6 @@ function Proycard({
             </a>
           )}
         </div>
-      </div>
-      <div className="content">
         <div
           style={{
             display: 'flex',
