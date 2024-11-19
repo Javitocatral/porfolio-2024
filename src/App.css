@@ -299,13 +299,14 @@ th {
 
   .content {
     position: static;
+    background-color: white;
     color: black;
     padding: 20px;
     text-align: left;
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
     margin-top: 10px;
     opacity: 1;
+    border: 5px solid #cdff4f;
   }
   .content h2,
   p {
@@ -373,6 +374,10 @@ th {
     align-items: center;
     gap: 20px;
     margin: 0;
+  }
+  .proyecto:hover .content {
+    opacity: inherit;
+    visibility: inherit;
   }
 
   .proyecto {
