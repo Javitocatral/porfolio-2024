@@ -387,14 +387,14 @@ th {
   }
 
   .img img {
-    height: 200px;
+    height: 300px;
     object-fit: cover;
   }
 
   .button-container {
     left: 6px;
     right: 6px;
-    top: 120px;
+    top: 170px;
     bottom: 0;
     justify-content: space-between;
     gap: 15px;
@@ -438,7 +438,7 @@ th {
   }
 
   .img img {
-    height: 150px; /* Ajusta el tamaño de las imágenes para móviles */
+    height: 200px; /* Ajusta el tamaño de las imágenes para móviles */
   }
 
   .button-container {
