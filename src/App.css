@@ -286,6 +286,12 @@ th {
 }
 
 @media (max-width: 768px) {
+  .btn-cv {
+    margin-top: 20px;
+  }
+  .info {
+    padding: 10px;
+  }
   .title_proyec {
     margin: 30px 0;
   }
