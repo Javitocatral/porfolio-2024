@@ -231,7 +231,7 @@ th {
   color: white;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s step-end;
   z-index: 2;
   text-align: left;
   gap: 10px;
@@ -243,6 +243,7 @@ th {
 
 .proyecto:hover .content {
   opacity: 1;
+  transition: opacity 0.4s ease-in-out, visibility 0.4s step-start;
   border: 5px solid #cdff4f;
   visibility: visible;
 }
