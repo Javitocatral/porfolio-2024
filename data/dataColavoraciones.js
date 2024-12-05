@@ -8,7 +8,7 @@ const colaboraciones = [
     name: 'Vermouth.nu',
     description:
       'Página web especializada en la exportación de vermuts españoles a Dinamarca. Diseñada para mejorar la visibilidad y distribución del vermut español en el mercado danés.',
-    technologies: ['SvelteKit', 'JavaScript', 'HTML', 'CSS'],
+    technologies: ['SvelteKit', 'Typescript', 'JavaScript', 'HTML', 'CSS'],
     features: [
       'Diseño moderno y atractivo',
       'Optimización para la distribución en Dinamarca',
@@ -23,6 +23,7 @@ const colaboraciones = [
       'Plataforma en línea dedicada a la venta de café de alta calidad de todo el mundo. También incluye una sección de eventos y una lista de tiendas físicas asociadas.',
     technologies: [
       'SvelteKit',
+      'Typescript',
       'JavaScript',
       'HTML',
       'CSS',
@@ -41,7 +42,7 @@ const colaboraciones = [
     name: 'El Danés Solutions',
     description:
       'Sitio web de la empresa especializada en desarrollo frontend donde trabajé. El enfoque principal es el diseño de interfaces eficientes y atractivas.',
-    technologies: ['SvelteKit', 'JavaScript', 'HTML', 'CSS'],
+    technologies: ['SvelteKit', 'Typescript', 'JavaScript', 'HTML', 'CSS'],
     features: [
       'Desarrollo frontend eficiente',
       'Interfaz de usuario intuitiva',
