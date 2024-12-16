@@ -3,6 +3,8 @@ import Nav from '../componentes/Nav'
 import carta from '../assets/carta.png'
 import telefono from '../assets/telefono.png'
 import descargas from '../assets/descargas.png'
+import linkedin from '../assets/linkedin.png'
+import git from '../assets/git.png'
 function About() {
   return (
     <div className="about-container">
@@ -67,17 +69,41 @@ function About() {
             <strong>690084912</strong>
           </a>
           <a href="/Cv-JavierGascon.pdf" download>
-            <button className="btn-cv" style={{ display: 'flex', gap: '5px' }}>
-              {' '}
-              <img
-                style={{
-                  width: '10px',
-                }}
-                src={descargas}
-                alt="icono de descargar archivos uan flecah hacia abajo"
-              />
-              Descargar mi CV
-            </button>
+            <div style={{ display: 'flex', gap: '10px', marginTop: '20px' }}>
+              <button
+                className="btn-cv"
+                style={{ display: 'flex', gap: '5px', alignItems: 'center' }}
+              >
+                {' '}
+                <img
+                  style={{
+                    width: '10px',
+                  }}
+                  src={descargas}
+                  alt="icono de descargar archivos uan flecah hacia abajo"
+                />
+                Descargar mi CV
+              </button>
+
+              <a
+                href={'https://github.com/Javitocatral'}
+                className="ver-boton"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img style={{ width: '25px' }} src={git} alt="gitHub" />
+              </a>
+              <a
+                href={
+                  'https://www.linkedin.com/in/javiergasconruiz-frontend-developer/'
+                }
+                className="ver-boton"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img style={{ width: '25px' }} src={linkedin} alt="gitHub" />
+              </a>
+            </div>
           </a>
         </div>
       </div>
