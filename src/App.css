@@ -189,10 +189,10 @@ th {
 }
 .mis-proyectos {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 0 20px;
+  margin: 0 30px;
 }
 .proyecto {
   position: relative;
@@ -280,7 +280,7 @@ th {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 .title_proyec {
-  margin: 30px;
+  margin: 30px 30px 0px;
 }
 .color-mobile {
   display: none;

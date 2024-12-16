@@ -7,6 +7,14 @@ function Porfolio() {
     <div className="container-porf">
       <Nav />
       <h2 className="title_proyec">Colaboraciones</h2>
+      <hr
+        style={{
+          backgroundColor: '#cdff4f',
+          height: '10px',
+          margin: '0px 30px 30px',
+          border: 'none',
+        }}
+      />
       <div className="mis-proyectos">
         {colaboraciones.map((cadaProyecto, index) => {
           return (
@@ -23,6 +31,14 @@ function Porfolio() {
         })}
       </div>
       <h2 className="title_proyec">Mis Proyectos</h2>
+      <hr
+        style={{
+          backgroundColor: '#cdff4f',
+          height: '10px',
+          margin: '0px 30px 30px',
+          border: 'none',
+        }}
+      />
       <div className="mis-proyectos">
         {misProyectos.proyectos.map((cadaProyecto, index) => {
           return (
