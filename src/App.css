@@ -233,7 +233,7 @@ th {
   transition: opacity 0.3s ease-in-out, visibility 0.3s step-end;
   z-index: 2;
   text-align: left;
-  gap: 15px;
+  gap: 10px;
   padding: 0 200px 0 20px;
 }
 
@@ -246,7 +246,7 @@ th {
 }
 .column-caract li {
   break-inside: avoid;
-  padding: 5px 0;
+  padding: 2px 0;
 }
 
 .proyecto:hover .content {
