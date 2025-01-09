@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import git from '../assets/git.png'
 import ver from '../assets/ver.png'
 function Proycard({
@@ -9,6 +10,15 @@ function Proycard({
   link,
   repo,
 }) {
+  const ulRef = useRef(null)
+
+  useEffect(() => {
+    if (ulRef.current && ulRef.current.children.length > 3) {
+      ulRef.current.classList.add('two-columns')
+    } else if (ulRef.current) {
+      ulRef.current.classList.remove('two-columns')
+    }
+  }, [technologies])
   const handleClick = (event) => {
     if (repo === undefined) {
       alert(
@@ -17,6 +27,7 @@ function Proycard({
       event.preventDefault()
     }
   }
+
   return (
     <div className="proyecto">
       <div className="img">
@@ -65,7 +76,7 @@ function Proycard({
         <div className="columns-otros">
           <div className="column-caract">
             <h4>Tecnologías</h4>
-            <ul>
+            <ul ref={ulRef}>
               {technologies.map((tech, index) => {
                 return <li key={index}>{tech}</li>
               })}

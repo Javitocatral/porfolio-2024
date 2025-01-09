@@ -233,12 +233,20 @@ th {
   transition: opacity 0.3s ease-in-out, visibility 0.3s step-end;
   z-index: 2;
   text-align: left;
-  gap: 5px;
+  gap: 15px;
   padding: 0 200px 0 20px;
 }
 
 .column-caract {
   margin-bottom: 5px;
+}
+.two-columns {
+  column-count: 2;
+  column-gap: 20px;
+}
+.column-caract li {
+  break-inside: avoid;
+  padding: 5px 0;
 }
 
 .proyecto:hover .content {
