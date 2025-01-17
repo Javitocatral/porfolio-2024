@@ -197,7 +197,7 @@ th {
   position: relative;
   overflow: hidden;
   display: flex;
-  flex: 1 1 calc(50% - 20px); /* Ocupa 50% del ancho menos el gap */
+  flex: 1 1 calc(50% - 20px);
   max-width: calc(50% - 20px);
   margin-bottom: 20px;
 }

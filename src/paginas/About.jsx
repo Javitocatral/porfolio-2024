@@ -17,20 +17,20 @@ function About() {
             Soy desarrollador web con un enfoque proactivo y con muy buena
             actitud y adaptabilidad. Siempre actualizando mi formación, acabo de
             finalizar mi formación en <strong>Ironhack </strong>, donde
-            profundicé en tecnologías como <strong>JavaScript</strong>,{' '}
+            profundicé en tecnologías como <strong>JavaScript</strong>,
             <strong>Node.js, Express</strong> y <strong>MongoDB</strong>.
           </p>
           <p>
-            Me encanta trabajar con <strong>React.js</strong> y{' '}
+            Me encanta trabajar con <strong>React.js</strong> y
             <strong>SvelteKit</strong> para crear interfaces de usuario
-            dinámicas, y tengo una sólida base en<strong> HTML y CSS</strong>{' '}
+            dinámicas, y tengo una sólida base en<strong> HTML y CSS</strong>
             para conseguir páginas más atractivas y fáciles de usar. También
             disfruto asegurándome de que el código esté limpio y bien
-            organizado, usando herramientas como{' '}
+            organizado, usando herramientas como
             <strong> ESLint, Prettier y Playwright</strong>.
           </p>
           <p>
-            Antes de mi formación en Ironhack, trabajé en{' '}
+            Antes de mi formación en Ironhack, trabajé en
             <strong>El Danés Solution</strong>, lo que me brindó experiencia
             práctica en el sector y reforzó mi compromiso con el trabajo en
             equipo y la entrega de resultados de calidad.
@@ -58,7 +58,6 @@ function About() {
             <strong>javitocatral@gmail.com</strong>
           </a>
           <a style={{ display: 'flex', gap: '5px' }} href="tel:+34690084912">
-            {' '}
             <img
               style={{
                 width: '16px',
@@ -74,7 +73,6 @@ function About() {
                 className="btn-cv"
                 style={{ display: 'flex', gap: '5px', alignItems: 'center' }}
               >
-                {' '}
                 <img
                   style={{
                     width: '10px',
